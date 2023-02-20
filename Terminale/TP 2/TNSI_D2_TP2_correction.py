@@ -122,21 +122,3 @@ class Fraction:
         if isinstance(f2,int):
             f2 = Fraction(f2, 1)
         return Fraction(self.num*f2.num, self.den*f2.den).simplifier()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

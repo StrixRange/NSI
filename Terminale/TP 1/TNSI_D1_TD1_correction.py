@@ -87,4 +87,3 @@ def appartient_v4(v, t):
         i = i+1
     t.pop()
     return i != len(t)
-

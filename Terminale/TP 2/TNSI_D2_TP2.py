@@ -126,22 +126,23 @@ class Date:
 
 
 
-class Fraction:
 
-    """ sqdqds """
 
-    def __init__(self,num,den):
-        self.num = num
-        self.den = den
 
-    def __repr__(self):
-        return f'{self.num} / {self.den}'
 
-    def __add__(self, f2):
-        return Fraction(self.num * f2.den + f2.num * self.den, self.den * f2.den)
 
-    def simplifier(self):
-        diviseur = gcd(self.num, self.den)
-        return Fraction(self.num // diviseur, self.den // diviseur)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
